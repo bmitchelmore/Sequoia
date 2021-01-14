@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A6269725AFC90B00F0F0B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6269625AFC90B00F0F0B5 /* AppDelegate.swift */; };
+		75A6269925AFC90B00F0F0B5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6269825AFC90B00F0F0B5 /* SceneDelegate.swift */; };
+		75A6269B25AFC90B00F0F0B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A6269A25AFC90B00F0F0B5 /* ViewController.swift */; };
+		75A6269E25AFC90B00F0F0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A6269C25AFC90B00F0F0B5 /* Main.storyboard */; };
+		75A626A025AFC90B00F0F0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75A6269F25AFC90B00F0F0B5 /* Assets.xcassets */; };
+		75A626A325AFC90B00F0F0B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A626A125AFC90B00F0F0B5 /* LaunchScreen.storyboard */; };
+		75A626AE25AFC90C00F0F0B5 /* SequoiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A626AD25AFC90C00F0F0B5 /* SequoiaTests.swift */; };
+		75A626B925AFC90C00F0F0B5 /* SequoiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A626B825AFC90C00F0F0B5 /* SequoiaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A626AA25AFC90C00F0F0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A6268B25AFC90B00F0F0B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A6269225AFC90B00F0F0B5;
+			remoteInfo = Sequoia;
+		};
+		75A626B525AFC90C00F0F0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A6268B25AFC90B00F0F0B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A6269225AFC90B00F0F0B5;
+			remoteInfo = Sequoia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A6269325AFC90B00F0F0B5 /* Sequoia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sequoia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A6269625AFC90B00F0F0B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75A6269825AFC90B00F0F0B5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75A6269A25AFC90B00F0F0B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75A6269D25AFC90B00F0F0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75A6269F25AFC90B00F0F0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75A626A225AFC90B00F0F0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75A626A425AFC90B00F0F0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A626A925AFC90C00F0F0B5 /* SequoiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequoiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A626AD25AFC90C00F0F0B5 /* SequoiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequoiaTests.swift; sourceTree = "<group>"; };
+		75A626AF25AFC90C00F0F0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75A626B425AFC90C00F0F0B5 /* SequoiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SequoiaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A626B825AFC90C00F0F0B5 /* SequoiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SequoiaUITests.swift; sourceTree = "<group>"; };
+		75A626BA25AFC90C00F0F0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A6269025AFC90B00F0F0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A626A625AFC90C00F0F0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A626B125AFC90C00F0F0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A6268A25AFC90B00F0F0B5 = {
+			isa = PBXGroup;
+			children = (
+				75A6269525AFC90B00F0F0B5 /* Sequoia */,
+				75A626AC25AFC90C00F0F0B5 /* SequoiaTests */,
+				75A626B725AFC90C00F0F0B5 /* SequoiaUITests */,
+				75A6269425AFC90B00F0F0B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A6269425AFC90B00F0F0B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A6269325AFC90B00F0F0B5 /* Sequoia.app */,
+				75A626A925AFC90C00F0F0B5 /* SequoiaTests.xctest */,
+				75A626B425AFC90C00F0F0B5 /* SequoiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A6269525AFC90B00F0F0B5 /* Sequoia */ = {
+			isa = PBXGroup;
+			children = (
+				75A6269625AFC90B00F0F0B5 /* AppDelegate.swift */,
+				75A6269825AFC90B00F0F0B5 /* SceneDelegate.swift */,
+				75A6269A25AFC90B00F0F0B5 /* ViewController.swift */,
+				75A6269C25AFC90B00F0F0B5 /* Main.storyboard */,
+				75A6269F25AFC90B00F0F0B5 /* Assets.xcassets */,
+				75A626A125AFC90B00F0F0B5 /* LaunchScreen.storyboard */,
+				75A626A425AFC90B00F0F0B5 /* Info.plist */,
+			);
+			path = Sequoia;
+			sourceTree = "<group>";
+		};
+		75A626AC25AFC90C00F0F0B5 /* SequoiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				75A626AD25AFC90C00F0F0B5 /* SequoiaTests.swift */,
+				75A626AF25AFC90C00F0F0B5 /* Info.plist */,
+			);
+			path = SequoiaTests;
+			sourceTree = "<group>";
+		};
+		75A626B725AFC90C00F0F0B5 /* SequoiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75A626B825AFC90C00F0F0B5 /* SequoiaUITests.swift */,
+				75A626BA25AFC90C00F0F0B5 /* Info.plist */,
+			);
+			path = SequoiaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75A6269225AFC90B00F0F0B5 /* Sequoia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A626BD25AFC90C00F0F0B5 /* Build configuration list for PBXNativeTarget "Sequoia" */;
+			buildPhases = (
+				75A6268F25AFC90B00F0F0B5 /* Sources */,
+				75A6269025AFC90B00F0F0B5 /* Frameworks */,
+				75A6269125AFC90B00F0F0B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sequoia;
+			productName = Sequoia;
+			productReference = 75A6269325AFC90B00F0F0B5 /* Sequoia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75A626A825AFC90C00F0F0B5 /* SequoiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A626C025AFC90C00F0F0B5 /* Build configuration list for PBXNativeTarget "SequoiaTests" */;
+			buildPhases = (
+				75A626A525AFC90C00F0F0B5 /* Sources */,
+				75A626A625AFC90C00F0F0B5 /* Frameworks */,
+				75A626A725AFC90C00F0F0B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A626AB25AFC90C00F0F0B5 /* PBXTargetDependency */,
+			);
+			name = SequoiaTests;
+			productName = SequoiaTests;
+			productReference = 75A626A925AFC90C00F0F0B5 /* SequoiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75A626B325AFC90C00F0F0B5 /* SequoiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A626C325AFC90C00F0F0B5 /* Build configuration list for PBXNativeTarget "SequoiaUITests" */;
+			buildPhases = (
+				75A626B025AFC90C00F0F0B5 /* Sources */,
+				75A626B125AFC90C00F0F0B5 /* Frameworks */,
+				75A626B225AFC90C00F0F0B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75A626B625AFC90C00F0F0B5 /* PBXTargetDependency */,
+			);
+			name = SequoiaUITests;
+			productName = SequoiaUITests;
+			productReference = 75A626B425AFC90C00F0F0B5 /* SequoiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A6268B25AFC90B00F0F0B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					75A6269225AFC90B00F0F0B5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					75A626A825AFC90C00F0F0B5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 75A6269225AFC90B00F0F0B5;
+					};
+					75A626B325AFC90C00F0F0B5 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 75A6269225AFC90B00F0F0B5;
+					};
+				};
+			};
+			buildConfigurationList = 75A6268E25AFC90B00F0F0B5 /* Build configuration list for PBXProject "Sequoia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75A6268A25AFC90B00F0F0B5;
+			productRefGroup = 75A6269425AFC90B00F0F0B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A6269225AFC90B00F0F0B5 /* Sequoia */,
+				75A626A825AFC90C00F0F0B5 /* SequoiaTests */,
+				75A626B325AFC90C00F0F0B5 /* SequoiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A6269125AFC90B00F0F0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A626A325AFC90B00F0F0B5 /* LaunchScreen.storyboard in Resources */,
+				75A626A025AFC90B00F0F0B5 /* Assets.xcassets in Resources */,
+				75A6269E25AFC90B00F0F0B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A626A725AFC90C00F0F0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A626B225AFC90C00F0F0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A6268F25AFC90B00F0F0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A6269B25AFC90B00F0F0B5 /* ViewController.swift in Sources */,
+				75A6269725AFC90B00F0F0B5 /* AppDelegate.swift in Sources */,
+				75A6269925AFC90B00F0F0B5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A626A525AFC90C00F0F0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A626AE25AFC90C00F0F0B5 /* SequoiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75A626B025AFC90C00F0F0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A626B925AFC90C00F0F0B5 /* SequoiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A626AB25AFC90C00F0F0B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A6269225AFC90B00F0F0B5 /* Sequoia */;
+			targetProxy = 75A626AA25AFC90C00F0F0B5 /* PBXContainerItemProxy */;
+		};
+		75A626B625AFC90C00F0F0B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A6269225AFC90B00F0F0B5 /* Sequoia */;
+			targetProxy = 75A626B525AFC90C00F0F0B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75A6269C25AFC90B00F0F0B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A6269D25AFC90B00F0F0B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75A626A125AFC90B00F0F0B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A626A225AFC90B00F0F0B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75A626BB25AFC90C00F0F0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75A626BC25AFC90C00F0F0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75A626BE25AFC90C00F0F0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8FR7B8F2U;
+				INFOPLIST_FILE = Sequoia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.burea.ios.Sequoia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75A626BF25AFC90C00F0F0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8FR7B8F2U;
+				INFOPLIST_FILE = Sequoia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.burea.ios.Sequoia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75A626C125AFC90C00F0F0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8FR7B8F2U;
+				INFOPLIST_FILE = SequoiaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.burea.ios.SequoiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sequoia.app/Sequoia";
+			};
+			name = Debug;
+		};
+		75A626C225AFC90C00F0F0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8FR7B8F2U;
+				INFOPLIST_FILE = SequoiaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.burea.ios.SequoiaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sequoia.app/Sequoia";
+			};
+			name = Release;
+		};
+		75A626C425AFC90C00F0F0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8FR7B8F2U;
+				INFOPLIST_FILE = SequoiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.burea.ios.SequoiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sequoia;
+			};
+			name = Debug;
+		};
+		75A626C525AFC90C00F0F0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V8FR7B8F2U;
+				INFOPLIST_FILE = SequoiaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ca.burea.ios.SequoiaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sequoia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A6268E25AFC90B00F0F0B5 /* Build configuration list for PBXProject "Sequoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A626BB25AFC90C00F0F0B5 /* Debug */,
+				75A626BC25AFC90C00F0F0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A626BD25AFC90C00F0F0B5 /* Build configuration list for PBXNativeTarget "Sequoia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A626BE25AFC90C00F0F0B5 /* Debug */,
+				75A626BF25AFC90C00F0F0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A626C025AFC90C00F0F0B5 /* Build configuration list for PBXNativeTarget "SequoiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A626C125AFC90C00F0F0B5 /* Debug */,
+				75A626C225AFC90C00F0F0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A626C325AFC90C00F0F0B5 /* Build configuration list for PBXNativeTarget "SequoiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A626C425AFC90C00F0F0B5 /* Debug */,
+				75A626C525AFC90C00F0F0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A6268B25AFC90B00F0F0B5 /* Project object */;
+}
